@@ -1,0 +1,7 @@
+TextStyle(color: Colors.red),
+color named parameter
+
+var tipi hep ayno
+dynamic tipi değişken
+
+final & const sonradan değiştirilemiyorlar.
