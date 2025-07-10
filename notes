@@ -1,0 +1,10 @@
+TextStyle(color: Colors.red),
+color named parameter
+
+var tipi hep aynı
+dynamic tipi değişken
+
+final & const sonradan değiştirilemiyorlar. Sadece kullanım yerleri farklı.
+
+Boxfit.cover alanı doldurur ama resmi kırpabilir.
+Boxfit.fill bütün alanı doldurur ama resim bozulur.

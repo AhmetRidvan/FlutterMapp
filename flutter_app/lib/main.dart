@@ -54,37 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
         title: Text(widget.title),
       ),
-      body: Center(
-        child: Container(
-          color: Colors.greenAccent,
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(22),
-                  color: Colors.blueAccent,
-                ),
-
-                width: 100,
-                height: 100,
-                child: Text('data'),
-              ),
-              Container(
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(22),
-                  color: Colors.orange,
-                ),
-
-                width: 100,
-                height: 100,
-
-                child: Text('data'),
-              ),
-            ],
-          ),
-        ),
-      ),
+      body: Image.asset('assets/images/as.jpg', height: double.infinity),
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
