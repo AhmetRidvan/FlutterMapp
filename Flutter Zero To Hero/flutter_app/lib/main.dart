@@ -23,6 +23,36 @@ class _MyAppState extends State<MyApp> {
         ),
       ),
       home: Scaffold(
+        appBar: AppBar(),
+        drawer: Drawer(
+          child: Column(
+            children: [
+              DrawerHeader(child: ListTile(title: Text('asd'))),
+              Text('asd'),
+              Text('asd'),
+              Text('asd'),
+              Text('asd'),
+              Text('asd'),
+              Text('asd'),
+            ],
+          ),
+        ),
+        floatingActionButton: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            FloatingActionButton(
+              child: Icon(Icons.add),
+              onPressed: () {
+                print('Hi');
+              },
+            ),
+            SizedBox(height: 10),
+            FloatingActionButton(
+              onPressed: () {},
+              child: Icon(Icons.text_decrease_outlined),
+            ),
+          ],
+        ),
         bottomNavigationBar: NavigationBar(
           onDestinationSelected: (int value) {},
           selectedIndex: 0,
@@ -31,7 +61,7 @@ class _MyAppState extends State<MyApp> {
             NavigationDestination(icon: Icon(Icons.delete), label: 'No one'),
           ],
         ),
-        appBar: AppBar(backgroundColor: Colors.teal, title: Text('Hi')),
+
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
