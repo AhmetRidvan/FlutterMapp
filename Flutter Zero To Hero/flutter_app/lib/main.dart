@@ -23,45 +23,15 @@ class _MyAppState extends State<MyApp> {
         ),
       ),
       home: Scaffold(
-        appBar: AppBar(),
-        drawer: Drawer(
-          child: Column(
-            children: [
-              DrawerHeader(child: ListTile(title: Text('asd'))),
-              Text('asd'),
-              Text('asd'),
-              Text('asd'),
-              Text('asd'),
-              Text('asd'),
-              Text('asd'),
-            ],
-          ),
-        ),
-        floatingActionButton: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            FloatingActionButton(
-              child: Icon(Icons.add),
-              onPressed: () {
-                print('Hi');
-              },
-            ),
-            SizedBox(height: 10),
-            FloatingActionButton(
-              onPressed: () {},
-              child: Icon(Icons.text_decrease_outlined),
-            ),
-          ],
-        ),
+        appBar: AppBar(title: Container(decoration: BoxDecoration())),
         bottomNavigationBar: NavigationBar(
           onDestinationSelected: (int value) {},
           selectedIndex: 0,
           destinations: [
             NavigationDestination(icon: Icon(Icons.add), label: 'Hi'),
-            NavigationDestination(icon: Icon(Icons.delete), label: 'No one'),
+            NavigationDestination(icon: Icon(Icons.add), label: 'Hi'),
           ],
         ),
-
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
