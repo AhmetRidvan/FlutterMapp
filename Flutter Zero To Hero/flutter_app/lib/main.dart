@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/pages/widget_tree.dart';
-import 'package:flutter_app/widgets/navbar_widget.dart';
+import 'package:flutter_app/data/notifiers.dart';
+import 'package:flutter_app/pages/views/widget_tree.dart';
+import 'package:flutter_app/pages/views/widgets/navbar_widget.dart';
+
 // 1:52
 void main() {
   runApp(MyApp());
@@ -14,9 +16,9 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-
   @override
   Widget build(BuildContext context) {
+
     return MaterialApp(
       home: WidgetTree(),
       debugShowCheckedModeBanner: false,

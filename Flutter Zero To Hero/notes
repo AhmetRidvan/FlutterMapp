@@ -8,3 +8,8 @@ final & const sonradan değiştirilemiyorlar. Sadece kullanım yerleri farklı.
 
 Boxfit.cover alanı doldurur ama resmi kırpabilir.
 Boxfit.fill bütün alanı doldurur ama resim bozulur.
+
+elementAt [0] ile aynı işlevi görür ama okunabilirliği artırır.
+
+1 ValueNotifier
+2 ValueListenableBuilder
