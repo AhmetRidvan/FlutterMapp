@@ -3,7 +3,7 @@ import 'package:flutter_app/data/notifiers.dart';
 import 'package:flutter_app/pages/views/widget_tree.dart';
 import 'package:flutter_app/pages/views/widgets/navbar_widget.dart';
 
-// 1:52
+
 void main() {
   runApp(MyApp());
 }

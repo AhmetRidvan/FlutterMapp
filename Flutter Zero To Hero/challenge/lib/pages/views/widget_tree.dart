@@ -28,15 +28,15 @@ class WidgetTree extends StatelessWidget {
               return value == false
                   ? IconButton(
                       onPressed: () {
-                        tm.value = true;
+                        tm.value = !tm.value;
                       },
-                      icon: Icon(Icons.light_mode),
+                      icon: Icon(Icons.dark_mode),
                     )
                   : IconButton(
                       onPressed: () {
-                        tm.value = false;
+                        tm.value = !tm.value;
                       },
-                      icon: Icon(Icons.dark_mode),
+                      icon: Icon(Icons.light_mode),
                     );
             },
           ),
